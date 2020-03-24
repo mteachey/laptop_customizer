@@ -48,7 +48,6 @@ export default class App extends Component {
         <main>
           <Form 
             selected={this.state.selected}
-           // features={FEATURES}
            features={this.props.features}
             updateFeature={this.updateFeature}
           />
